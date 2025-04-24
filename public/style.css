@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+}
+.description {
+    display: block;
+    width: 800px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(241, 241, 241);
+}
+header {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    font-size: 20px;
+    margin-top: 20px;
+    padding:10px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+input {
+    font-size: 16px;
+    margin:5px 0;
+    width: 100%;
+    border: 1px solid rgb(112, 112, 248);
+    border-radius: 5px;
+}
+a, input[type="button"] {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: rgb(112, 112, 248);
+    padding: 10px;
+    margin:10px;
+    width:200px;
+    border-radius: 5px;
+    display:block;
+}
+.description, form, input[type="button"], #cryptoMessage, #studentData{
+    margin-left: auto;
+    margin-right: auto;
+}
+#cryptoMessage, #studentData {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    display: none;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+#cryptoMessage img {
+    border-radius: 5px;
+    margin: 5px;
+}

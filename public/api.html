@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html">Головна</a>
+        <a href="./api.html">Перейти до API</a>
+        <a href="./student.html">Пошук студента</a>
+    </header>
+    <form>
+        Введіть назву криптовалюти <br>
+        <input type="text" id="crypto" placeholder="Bitcoin"> <br>
+        Введіть назву результуючої валюти <br>
+        <input type="text" id="currency" placeholder="uah"> <br>
+        Виберіть дату <br>
+        <input type="date" id="date"><br>
+        <input type="button" id="searchBtn" value="Пошук">         
+    </form>
+    <div id="cryptoMessage"></div>
+
+    <script src="./api_script.js"></script>
+    
+</body>
+</html>
