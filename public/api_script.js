@@ -28,6 +28,7 @@ function searchHistory(crypto, currency, date, callback){
     })
     .then(res=>{
         if(!res.ok) throw "The error happened when querying API";
+        return res;
     }).then(res=>res.json())
     .then(data=>{
         const img = data["image"]["thumb"];

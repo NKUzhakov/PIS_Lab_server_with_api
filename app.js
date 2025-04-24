@@ -6,12 +6,6 @@ const port = 3000;
 const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.json());
-
-// app.use('/trains', trainRoutes);
-// app.use('/admin', adminRoutes);
-// app.use('/api', apiRoutes);
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
